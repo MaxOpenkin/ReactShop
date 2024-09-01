@@ -1,0 +1,7 @@
+.home-page {
+    display: flex;
+    justify-content: center; /* Горизонтальное центрирование */
+    max-width: 1280px;
+    margin: 0 auto; /* Центрирование контейнера на странице */
+    min-height: 100vh; /* Минимальная высота 100% от высоты окна браузера */
+}

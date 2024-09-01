@@ -1,0 +1,37 @@
+.header-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 8px 20px;
+    background-color: #f8f9fa;
+    border-bottom: 1px solid #ddd;
+}
+
+/* Стили для брендинга */
+.header-branding {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+
+/* Стили для ссылки на название интернет-магазина */
+.header-title-link {
+    text-decoration: none;
+    color: inherit;
+}
+
+/* Стили для иконки */
+.header-icon {
+    font-size: 24px;
+    margin-right: 10px;
+    color: #1c79b7;
+}
+
+/* Стили для названия сайта */
+.header-title {
+    font-size: 24px;
+    color: #333;
+    margin: 0;
+}

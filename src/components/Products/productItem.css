@@ -1,0 +1,81 @@
+.product-item_container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: space-between; /* Равномерное распределение пространства */
+    width: 240px;
+    height: 300px;
+    overflow: hidden;
+    margin: 10px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+
+.product-item-image {
+    height: 100px;
+    object-fit: cover; /* Изображение заполняет контейнер, сохраняя пропорции */
+    border-radius: 4px;
+  }
+
+.product-item_info{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    flex-grow: 1;
+    padding: 5px;
+}
+
+.product-item_title{
+    font-size: medium;
+    font-weight: 600;
+    margin: 5px auto;
+    color: #3f3f3f;
+}
+
+.product-item_category{
+    font-weight: 300;
+    margin: 5px auto;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #555555;
+}
+
+.product-item_buttons {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 5px auto;
+    gap: 10px;
+    padding: 0 6px;
+}
+
+.product-item_price {
+    font-weight: 600;
+    font-size: 16px;
+}
+
+.fa-shopping-cart {
+    margin: auto 5px;
+    font-size: 12px;
+    color: #f5f5f5;
+}
+
+.product-item_addBtn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-color: #1c79b7;
+    color: #f5f5f5;
+    border: none;
+    border-radius: 4px;
+    padding: 4px 10px;
+    cursor: pointer;
+    font-size: 14px;
+    transition: background-color 0.3s;
+}
+
+.product-item_addBtn:hover{
+    background-color: #18689e;
+}

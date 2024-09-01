@@ -1,0 +1,37 @@
+.nav_container {
+    background-color: #f8f9fa; 
+    padding: 10px;             
+  }
+  
+  .nav-ul_container {
+    list-style-type: none; 
+    margin: 0;             
+    padding: 0;            
+    display: flex;         
+    justify-content: center; 
+  }
+  
+  .nav-item {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0 15px; 
+    font-weight: 600;
+  }
+  
+  .nav-item a {
+    text-decoration: none; 
+    color: #333;           
+    font-size: 18px;       
+  }
+  
+  .nav-item a.active {
+    font-weight: bold;    
+    color: #007bff;       
+  }
+  
+  .nav-item a:hover {
+    color: #0056b3;       
+  }
+
+  .nav-icon_cart{
+    margin-left: 12px;
+  }
